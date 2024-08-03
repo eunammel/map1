@@ -1,0 +1,31 @@
+name: map1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.6.1
+  geolocator: ^11.0.0
+  flutter_image_compress: ^1.1.1
+  http: ^1.2.2
+  web_socket_channel: ^2.0.0
+  flutter_hooks: ^0.20.5
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assents\images\marker_icon_1.png
+  - assents\images\marker_icon_2.png
